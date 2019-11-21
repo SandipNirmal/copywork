@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Parallax Example</title>
+    <!-- <link rel="styleshhet" href="./css/style.css" /> -->
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        font-size: 16px;
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        color: #666;
+        line-height: 1.8em;
+      }
+
+      .pimg1 {
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.9;
+        background-attachment: fixed;
+      }
+
+      .pimg1 {
+        background-image: url("./img/red-moon.jpg");
+        min-height: 100%;
+      }
+
+      .section {
+        text-align: center;
+        padding: 250px 80px;
+      }
+
+      .ptext {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 10%;
+        height: 100%;
+        text-transform: uppercase;
+        font-size: 25px;
+        letter-spacing: 6px;
+        color: #e1e1e1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pimg1">
+      <div class="ptext">
+        <span class="border">
+          Red moon during night
+        </span>
+      </div>
+    </div>
+
+    <section class="section section-light">
+      <h2>Section One</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus in nam
+        expedita porro vero nemo aliquam, pariatur laudantium aperiam ipsam
+        accusamus distinctio ea veritatis facere. Ullam vitae deserunt inventore
+        repellendus?
+      </p>
+    </section>
+  </body>
+</html>
