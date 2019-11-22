@@ -8,6 +8,7 @@ Copywork is collection of copied work from popular existing web applications. Li
 4. Stripe
 5. Dribble work
 6. Apple MacBook Pro
+7. CSS Animations
 
 Scroll animation with ScrollMagic
 Parallax website
